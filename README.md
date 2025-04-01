@@ -49,5 +49,5 @@ Comparison between the original INMEZA page and this clone:
 git clone https://github.com/yourusername/inmeza_clone.git
 
 # Open in browser
-cd inmeza-clone
+cd inmeza_clone
 open index.html
