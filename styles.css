@@ -1,0 +1,490 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/*********************************/
+/*******  MAIN CONTAINER ********/
+/*******************************/
+
+.main_container_1 {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    background-color: white;
+    height: 850px;
+    }
+    /******** C1 SUB CONTAINER 1 *********/
+    .main_container_1 .sub_container_1 {
+        width: 45%;
+        height: 60%;
+        background-color: #95407A;
+    }
+    .main_container_1 .sub_container_1 H1{
+        color: white;
+        font-size: 320%;
+        margin-top: 10%;
+        font-weight: 900;
+    }
+    .main_container_1 .sub_container_1 p{
+        color: white;
+        font-size: 200%;
+        font-weight: 500;
+        position: relative;
+        bottom: 8%;
+        left: 25%;
+        margin-top: 10px;
+    }
+
+    .main_container_1 .sub_container_1 img{
+    width: 100%;
+    position: relative;
+    bottom: 50px;
+        left: 10%;
+    }
+
+    .main_container_1 .sub_container_1 .wbloque {
+            width: 32%; 
+            height: 20%;         
+            background-color: white; 
+            /* posicionamiento absoluto para salir del flujo */
+            /*display: block;*/
+            position: absolute;     
+            top: 125%;              
+            left: 38%;             
+            transform: translate(-50%, -50%); 
+            
+        }
+    
+    /******* C1 SUB CONTAINER 2 ********/
+    .main_container_1 .sub_container_2 {
+        width: 55%;
+        height: 100%;
+        background-color: #ffffff;
+        color: #95407A;
+    }  
+
+    .main_container_1 .sub_container_2 .logo {
+        width: 40%;
+        position: relative;
+        bottom: 10%;
+    }  
+
+    .main_container_1 .sub_container_2 .restaurant {
+        width: 50%;
+        position: relative;
+        bottom: 1%;
+        right: 3%;
+    }  
+
+    .main_container_1 .sub_container_2 .logos {
+        width: 60%;
+        position: relative;
+        bottom: -20%;
+    }  
+
+
+    .sub_container_2 h1 {
+        margin: 0;
+        position: relative;
+        top: 5%;
+        line-height: 1;  
+        font-size: 450%;
+        font-weight: 900;
+    }
+    .sub_container_2 h2 {
+        margin: 0;
+        position: relative;
+        top: 5%;
+        line-height: 1;  
+        font-weight: 900;
+    }
+    .sub_container_2 p {
+        position: relative;
+        top: 12%;
+        margin: 0;
+        line-height: 1;  
+        font-weight: 100;
+    }
+
+    .sub_container_2 p + p {
+        margin-top: 5px;  
+    }
+
+
+
+/***********************************/
+/*******  MAIN CONTAINER 2 ********/
+/*********************************/
+.main_container_2 {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    background-color: #95407A;
+    height: 720px;
+}
+
+/******** C2 SUB CONTAINER 3 *********/
+.main_container_2 .sub_container_3 {
+    width: 50%;
+    height: 100%;
+    background-color: #95407A;
+    color: #95407A;   
+}  
+
+.main_container_2 .sub_container_3 .text_container {
+    position: relative;
+    left: 10%;
+    top: 5%;
+    width: 80%;
+    font-size: 150%;
+    color: #f8f8f8;
+    text-align: start;
+    line-height: 1.5;  
+}
+
+
+/******** C2 SUB CONTAINER 4 *********/
+    .main_container_2 .sub_container_4 {
+        width: 50%;
+        height: 100%;
+        background-color: #95407A;
+        color: #95407A;     
+    }  
+
+    .main_container_2 .sub_container_4 .image_girl_2 {
+        width: 95%;
+        position: relative;
+        bottom: 1.1%;
+    }
+
+
+
+
+/***********************************/
+/*******  MAIN CONTAINER 3 ********/
+/*********************************/
+
+.main_container_3 {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    background-color: white;
+    height: 730px;
+}
+
+/******** C3 SUB CONTAINER 5 *********/
+.main_container_3 .sub_container_5 {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    color: #95407A;          
+}  
+
+.main_container_3 .sub_container_5 .map {
+    width: 109%;
+    position: relative;
+    left: 4%;
+}
+
+
+/******** C3 SUB CONTAINER 6 *********/
+.main_container_3 .sub_container_6 {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    color: #95407A;          
+}  
+
+.main_container_3 .sub_container_6 .text_container_2 {
+    position: relative;
+    bottom: 10%;
+    left: 10%;
+    width: 80%;
+    font-size: 120%;
+    color: #95407A;
+    text-align: start;
+    line-height: 2.5;  
+    font-weight: 900;
+}
+.agenda{
+    position: relative;
+    bottom: 5%;
+    right: 3%;
+    font-weight: 800;
+}
+.cupo {
+    position: relative;
+    bottom: 5%;
+    font-size: 150%;
+    font-weight: 800;
+}
+.main_container_3 .sub_container_6 .text_container_2 .hours {
+   
+    line-height: 0.5;  
+}
+/******** estilos del boton***********/
+.main_container_3 .sub_container_6 .btn {
+    position: relative;
+    padding: 12px 24px;       
+    width: 50%;         
+    height: 15%;        
+    border-radius: 30px;      
+    border: none;  
+    font-family: 'Arial', sans-serif;
+    font-size: 160%;          
+    font-weight: bold;
+    text-transform: uppercase; 
+    background-color: #95407A; 
+    color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: all 0.3s ease; 
+  }
+  
+  /* Efecto al pasar el mouse */
+  .btn:hover {
+    background-color: #45a049; 
+    transform: translateY(-2px); 
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15); 
+  }
+  
+  /* Efecto al hacer clic */
+  .btn:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+
+/********************************************/
+/*******  MAIN CONTAINER 4 / footer ********/
+/******************************************/
+
+.container_footer {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    background-color: #95407A;
+    height: 200px;
+    color: white;
+    font-size: 120%;    
+}
+
+.container_footer .footer_logos {
+    width: 60%;
+    position: relative;
+    bottom: 5%;
+}
+/*****************************************************/
+/* Para centrar el contenido de los subcontenedores */
+/***************************************************/
+
+.sub_container_2,
+.sub_container_3,
+.sub_container_4,
+.sub_container_5,
+.sub_container_6,
+.container_footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+
+
+
+/* ==================== */
+/* MEDIA QUERIES EXTRAS */
+/* ==================== */
+
+@media (max-width: 1200px){
+    .main_container_1 .sub_container_1 p{
+    font-size: 150%;
+}
+.main_container_1 .sub_container_2 H1{
+    font-size: 350%;
+}
+.main_container_1 .sub_container_2 H2{
+    font-size: 90%;
+}
+
+}
+
+
+/* =============================================== */
+/* MEDIA QUERIES PARA RESPONSIVE (768px o menos) */
+/* =============================================== */
+@media (max-width: 768px) {
+    /* Contenedores principales - Cambio a columna */
+    .main_container_1,
+    .main_container_2,
+    .main_container_3,
+    .container_footer {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+    
+    /* Sub contenedores - Ancho completo */
+    .sub_container_1,
+    .sub_container_2,
+    .sub_container_3,
+    .sub_container_4,
+    .sub_container_5,
+    .sub_container_6 {
+        width: 100% !important;
+        height: auto !important;
+        padding: 30px 20px !important;
+    }
+    
+    /* Ajustes para textos */
+    .main_container_1 .sub_container_1 h1 {
+        font-size: 2.2rem !important;
+        margin-top: 5% !important;
+    }
+    
+    .main_container_1 .sub_container_1 p {
+        font-size: 1.4rem !important;
+        left: 0 !important;
+        bottom: 0 !important;
+    }
+    
+    .sub_container_2 h1 {
+        font-size: 2.2rem !important;
+        top: 0 !important;
+    }
+    
+    .sub_container_2 h2 {
+        font-size: 1.2rem !important;
+    }
+    
+    .sub_container_2 p {
+        font-size: 1rem !important;
+        top: 0 !important;
+    }
+    
+    /* Ajustes para imágenes */
+    .main_container_1 .sub_container_1 img,
+    .logo,
+    .restaurant,
+    .logos,
+    .image_girl_2,
+    .map,
+    .footer_logos {
+        width: 80% !important;
+        position: relative !important;
+        left: auto !important;
+        right: auto !important;
+        bottom: auto !important;
+        margin: 20px auto !important;
+    }
+    
+    /* ocultar el bloque blanco */
+    .wbloque {
+        display: none;
+    }
+    
+    /* Contenedor de texto */
+    .text_container,
+    .text_container_2 {
+        width: 90% !important;
+        left: 0 !important;
+        font-size: 1.1rem !important;
+        line-height: 1.6 !important;
+    }
+    
+    /* boton */
+    .btn {
+        width: 80% !important;
+        font-size: 1.2rem !important;
+        padding: 15px !important;
+    }
+    
+    /* agenda */
+    .hours h3 {
+        font-size: 1.1rem !important;
+        line-height: 1.8 !important;
+    }
+}
+
+/* =============================================== */
+/* MEDIA QUERIES PARA MÓVILES (480px o menos) */
+/* =============================================== */
+@media (max-width: 480px) {
+    /* reducir el tamaño del texto */
+    .main_container_1 .sub_container_1 h1 {
+        font-size: 1.8rem !important;
+    }
+    
+    .main_container_1 .sub_container_1 p {
+        font-size: 1.1rem !important;
+    }
+    
+    .sub_container_2 h1 {
+        font-size: 1.8rem !important;
+    }
+    
+    .sub_container_2 h2 {
+        font-size: 1rem !important;
+    }
+    
+    /* achicar el boton */
+    .btn {
+        font-size: 1rem !important;
+        padding: 12px !important;
+    }
+    
+    /* footer */
+    .container_footer {
+        font-size: 1rem !important;
+    }
+}
+/************************/
+/******* Modal *********/
+/**********************/
+#modal {
+    display: none;
+}
+
+.modal_background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:  black;
+    opacity: 0.5;
+    z-index: 90;
+}
+
+.modal_content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.modal_content img {
+    width: 100%;
+}
+
+#btn_close_modal {
+    position: absolute;
+    top: -5%;
+    right: -5%;
+    background-color: transparent;
+    color: white;
+    font-size: 100%;
+    cursor: pointer;
+    border: none;
+}
+#btn_close_modal:hover {
+    font-size: 110%;
+    text-decoration: underline;
+}
