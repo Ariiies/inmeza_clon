@@ -8,7 +8,7 @@ Comparison between the original INMEZA page and this clone:
 
 | Original (Reference) | This Clone |
 |----------------------|------------|
-| <img src="reference/reference.png" width="400" height="300"> | <img src="reference/clone.png" width="450" height="300"> |
+| <img src="reference/reference.png" width="400" height="300"> | <img src="reference/clone.png" width="400" height="300"> |
 
 
 ## 🔍 Project Overview
